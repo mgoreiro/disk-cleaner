@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>Disk Cleaner</string>
+    <key>CFBundleDisplayName</key><string>Disk Cleaner</string>
+    <key>CFBundleIdentifier</key><string>dev.miguel.diskcleaner</string>
+    <key>CFBundleExecutable</key><string>DiskCleaner</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0.1</string>
+    <key>CFBundleVersion</key><string>2</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSDesktopFolderUsageDescription</key><string>Disk Cleaner necesita leer esta carpeta para calcular el espacio que ocupa.</string>
+    <key>NSDocumentsFolderUsageDescription</key><string>Disk Cleaner necesita leer esta carpeta para calcular el espacio que ocupa.</string>
+    <key>NSDownloadsFolderUsageDescription</key><string>Disk Cleaner necesita leer esta carpeta para calcular el espacio que ocupa.</string>
+    <key>NSRemovableVolumesUsageDescription</key><string>Disk Cleaner necesita leer los volúmenes externos para calcular el espacio que ocupan.</string>
+    <key>NSNetworkVolumesUsageDescription</key><string>Disk Cleaner necesita leer los volúmenes de red para calcular el espacio que ocupan.</string>
+</dict>
+</plist>
