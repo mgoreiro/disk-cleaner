@@ -4,6 +4,8 @@ Aplicación nativa de macOS (SwiftUI) que dibuja un mapa del espacio ocupado en 
 
 Requiere macOS 14 o superior.
 
+Software libre bajo licencia [MIT](LICENSE) · © 2026 Miguel González Oreiro <mgoreiro@gmail.com>
+
 ## Funciones
 
 - **Selector de unidades**: desplegable con los volúmenes conectados (internos, externos y de red) más «Otra carpeta…» para analizar una carpeta concreta.
@@ -78,3 +80,15 @@ Sources/DiskCleaner/
 - Tamaño = bloques asignados (`st_blocks × 512`), como Finder; por eso puede diferir del tamaño lógico.
 - El árbol completo se mantiene en memoria (~1,2 M de nodos en un disco de 245 GB).
 - Los borrados actualizan el árbol en sitio (resta tamaños a los ancestros) en lugar de reescanear.
+
+## Licencia
+
+Copyright (c) 2026 Miguel González Oreiro <mgoreiro@gmail.com>
+
+Este programa se distribuye bajo la [licencia MIT](LICENSE): puedes usarlo, copiarlo, modificarlo y
+redistribuirlo, también en proyectos propios o comerciales, siempre que conserves el aviso de copyright
+y el texto de la licencia.
+
+Se ofrece «tal cual», **sin ninguna garantía** de ningún tipo. Consulta el texto completo en [LICENSE](LICENSE).
+
+El proyecto no incluye código de terceros ni dependencias externas.
